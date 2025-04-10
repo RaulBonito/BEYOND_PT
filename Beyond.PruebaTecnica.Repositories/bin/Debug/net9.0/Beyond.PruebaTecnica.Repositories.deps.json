@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Beyond.PruebaTecnica.Repositories/1.0.0": {
+        "dependencies": {
+          "Beyond.PruebaTecnica.Abstractions": "1.0.0",
+          "Beyond.PruebaTecnica.Core": "1.0.0"
+        },
+        "runtime": {
+          "Beyond.PruebaTecnica.Repositories.dll": {}
+        }
+      },
+      "Beyond.PruebaTecnica.Abstractions/1.0.0": {
+        "dependencies": {
+          "Beyond.PruebaTecnica.Core": "1.0.0"
+        },
+        "runtime": {
+          "Beyond.PruebaTecnica.Abstractions.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Beyond.PruebaTecnica.Core/1.0.0": {
+        "runtime": {
+          "Beyond.PruebaTecnica.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Beyond.PruebaTecnica.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Beyond.PruebaTecnica.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Beyond.PruebaTecnica.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

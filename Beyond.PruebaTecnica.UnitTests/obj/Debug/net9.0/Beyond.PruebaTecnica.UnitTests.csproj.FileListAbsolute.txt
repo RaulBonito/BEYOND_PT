@@ -1,0 +1,7 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.UnitTests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_Beyond.PruebaTecnica.UnitTests
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.UnitTests\bin\Debug\net9.0\CoverletSourceRootsMapping_Beyond.PruebaTecnica.UnitTests
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.UnitTests\obj\Debug\net9.0\Beyond.PruebaTecnica.UnitTests.csproj.AssemblyReference.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.UnitTests\obj\Debug\net9.0\Beyond.PruebaTecnica.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.UnitTests\obj\Debug\net9.0\Beyond.PruebaTecnica.UnitTests.AssemblyInfoInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.UnitTests\obj\Debug\net9.0\Beyond.PruebaTecnica.UnitTests.AssemblyInfo.cs
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.UnitTests\obj\Debug\net9.0\Beyond.PruebaTecnica.UnitTests.csproj.CoreCompileInputs.cache

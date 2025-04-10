@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Beyond.PruebaTecnica.HybridWebApp.Shared.props" />
+</Project>

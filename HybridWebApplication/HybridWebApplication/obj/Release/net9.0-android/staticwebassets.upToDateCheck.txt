@@ -1,0 +1,4 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication\wwwroot\index.html
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication\wwwroot\app.css
+wwwroot\app.css
+wwwroot\index.html

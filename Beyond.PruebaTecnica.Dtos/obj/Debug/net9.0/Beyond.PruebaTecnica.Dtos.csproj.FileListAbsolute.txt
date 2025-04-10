@@ -1,0 +1,11 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\bin\Debug\net9.0\Beyond.PruebaTecnica.Dtos.deps.json
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\bin\Debug\net9.0\Beyond.PruebaTecnica.Dtos.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\bin\Debug\net9.0\Beyond.PruebaTecnica.Dtos.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\Beyond.PruebaTecnica.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\Beyond.PruebaTecnica.Dtos.AssemblyInfoInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\Beyond.PruebaTecnica.Dtos.AssemblyInfo.cs
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\Beyond.PruebaTecnica.Dtos.csproj.CoreCompileInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\Beyond.PruebaTecnica.Dtos.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\refint\Beyond.PruebaTecnica.Dtos.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\Beyond.PruebaTecnica.Dtos.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Dtos\obj\Debug\net9.0\ref\Beyond.PruebaTecnica.Dtos.dll

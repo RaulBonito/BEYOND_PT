@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\HybridWebApplication\\HybridWebApplication\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\HybridWebApplication.styles.css",
+      "PackagePath": "staticwebassets\\HybridWebApplication.styles.css"
+    },
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\HybridWebApplication\\HybridWebApplication\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\HybridWebApplication\\HybridWebApplication\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.HybridWebApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.HybridWebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.HybridWebApplication.props",
+      "PackagePath": "build\\HybridWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.HybridWebApplication.props",
+      "PackagePath": "buildMultiTargeting\\HybridWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.HybridWebApplication.props",
+      "PackagePath": "buildTransitive\\HybridWebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

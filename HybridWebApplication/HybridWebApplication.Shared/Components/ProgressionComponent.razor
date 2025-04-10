@@ -1,0 +1,126 @@
+﻿@using HybridWebApplication.Shared.Models
+@using System.Net.Http.Json
+@inject HttpClient Http
+@inherits ComponentBase
+
+<div class="progression-list">
+    @if (Todo.Progressions != null && Todo.Progressions.Any())
+    {
+        <ul class="progression-items">
+            @foreach (var progression in Todo.Progressions.OrderBy(p => p.Date))
+            {
+                var accumulatedPercent = GetAccumulatedProgression(progression);
+                <li class="progression-item">
+                    <div class="progression-info">
+                        <strong>@progression.Date.ToString("yyyy-MM-dd")</strong>:
+                        @progression.Percent%
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar">
+                            <div style="width:@accumulatedPercent%;" class="progress-bar-inner"></div>
+                        </div>
+                        <span class="accumulated-percent"> (Accumulated: @accumulatedPercent%)</span>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="no-progressions">No progressions yet.</p>
+    }
+
+    <div class="add-progression">
+        <button @onclick="ToggleAddProgression" class="btn-add-progress">
+            <i class="icon-plus"></i> Add Progression
+        </button>
+    </div>
+
+    @if (showAddProgression)
+    {
+        <div class="add-progression-form">
+            <input type="date" @bind="newProgressionDate" class="input-date" />
+            <input type="number" @bind="newProgressionPercent" min="0" max="100" placeholder="Progress %" class="input-percent" />
+            <button @onclick="AddProgression" class="btn-submit-progress">Add</button>
+
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <p class="error-message">@errorMessage</p>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public TodoItemDto Todo { get; set; }
+    [Parameter] public EventCallback OnUpdateRequired { get; set; }
+
+    private bool showAddProgression = false;
+    private DateTime newProgressionDate = DateTime.Today;
+    private decimal newProgressionPercent = 0;
+    private string errorMessage = string.Empty; 
+
+
+    private void ToggleAddProgression()
+    {
+        showAddProgression = !showAddProgression;
+    }
+
+    private async Task AddProgression()
+    {
+        if (newProgressionPercent > 0 && newProgressionPercent <= 100)
+        {
+            var dto = new RegisterProgressionDto
+                {
+                    Id = Todo.Id,
+                    DateTime = newProgressionDate,
+                    Percent = newProgressionPercent
+                };
+
+            try
+            {
+
+                var response = await Http.PostAsJsonAsync("api/todolist/register", dto);
+
+                if (response.IsSuccessStatusCode)
+                {
+
+                    newProgressionDate = DateTime.Today;
+                    newProgressionPercent = 0;
+                    showAddProgression = false;
+
+                    await OnUpdateRequired.InvokeAsync();
+                }
+                else
+                {
+                    var error = await response.Content.ReadAsStringAsync();
+                    this.errorMessage = $"Error: {error}";
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"{ex.Message}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid percent.");
+        }
+    }
+
+    private decimal GetAccumulatedProgression(ProgressionDto progression)
+    {
+        decimal accumulatedPercent = 0;
+
+        foreach (var p in Todo.Progressions.OrderBy(p => p.Date))
+        {
+            accumulatedPercent += p.Percent;
+            if (p == progression)
+                break;
+        }
+
+        return accumulatedPercent;
+    }
+
+   
+}

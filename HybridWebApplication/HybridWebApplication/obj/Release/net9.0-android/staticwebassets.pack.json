@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\HybridWebApplication\\HybridWebApplication\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\HybridWebApplication\\HybridWebApplication\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net9.0-android\\staticwebassets\\msbuild.HybridWebApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0-android\\staticwebassets\\msbuild.HybridWebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0-android\\staticwebassets\\msbuild.build.HybridWebApplication.props",
+      "PackagePath": "build\\HybridWebApplication.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0-android\\staticwebassets\\msbuild.buildMultiTargeting.HybridWebApplication.props",
+      "PackagePath": "buildMultiTargeting\\HybridWebApplication.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0-android\\staticwebassets\\msbuild.buildTransitive.HybridWebApplication.props",
+      "PackagePath": "buildTransitive\\HybridWebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

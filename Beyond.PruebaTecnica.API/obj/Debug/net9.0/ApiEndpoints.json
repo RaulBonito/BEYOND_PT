@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Beyond.PruebaTecnica.Controllers.V1.TodoListController",
+    "Method": "Remove",
+    "RelativePath": "api/TodoList/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Beyond.PruebaTecnica.Controllers.V1.TodoListController",
+    "Method": "Add",
+    "RelativePath": "api/TodoList/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Beyond.PruebaTecnica.Dtos.V1.AddTodoItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Beyond.PruebaTecnica.Controllers.V1.TodoListController",
+    "Method": "List",
+    "RelativePath": "api/TodoList/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Beyond.PruebaTecnica.Controllers.V1.TodoListController",
+    "Method": "RegisterProgression",
+    "RelativePath": "api/TodoList/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Beyond.PruebaTecnica.Dtos.V1.RegisterProgressionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Beyond.PruebaTecnica.Controllers.V1.TodoListController",
+    "Method": "Update",
+    "RelativePath": "api/TodoList/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Beyond.PruebaTecnica.Dtos.V1.UpdateTodoItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

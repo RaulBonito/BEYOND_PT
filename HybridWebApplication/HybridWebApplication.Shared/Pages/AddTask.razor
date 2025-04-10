@@ -1,0 +1,78 @@
+﻿@page "/add-task"
+@layout Layout.MainLayout
+
+@using Microsoft.AspNetCore.Components
+@using Models
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<PageTitle>Add New Task</PageTitle>
+
+
+<div class="form-container">
+    <h3>Add New Task</h3>
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" class="form-control" @bind="task.Title" />
+    </div>
+
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" class="form-control" @bind="task.Description"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="category">Category</label>
+        <select id="category" class="form-control" @bind-value="task.Category" @bind-value:event="onchange">
+            <option value="Work">Work</option>
+            <option value="Study">Study</option>
+            <option value="Personal">Personal</option>
+        </select>
+    </div>
+
+    <button type="button" class="btn btn-primary" @onclick="AddNewTask">Add Task</button>
+    <button type="button" class="btn btn-secondary" @onclick="NavigateToTodoList">Cancel</button>
+</div>
+
+@code {
+    private TodoDto task = new TodoDto()
+        {
+        Category = "Work"
+    };
+
+    private async Task AddNewTask()
+    {
+        var dto = new AddTodoItemDto
+            {
+                Title = task.Title,
+                Description = task.Description,
+                Category = task.Category
+            };
+
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/todolist/add", dto);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var result = await response.Content.ReadFromJsonAsync<dynamic>();
+                Navigation.NavigateTo("/todo-list");
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Error: {error}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception: {ex.Message}");
+        }
+    }
+
+    private void NavigateToTodoList()
+    {
+        Navigation.NavigateTo("/todo-list");
+    }
+
+}

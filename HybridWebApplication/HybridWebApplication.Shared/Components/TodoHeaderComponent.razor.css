@@ -1,0 +1,49 @@
+﻿.todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.todo-header-left {
+    flex-grow: 1;
+}
+
+.todo-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #333333;
+}
+
+.todo-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-add-task {
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-add-task:hover {
+        background-color: #1c7ce4;
+    }
+
+.icon-plus {
+    font-size: 18px;
+}

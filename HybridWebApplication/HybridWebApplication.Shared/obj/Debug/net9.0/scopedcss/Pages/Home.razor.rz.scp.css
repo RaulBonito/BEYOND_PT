@@ -1,0 +1,118 @@
+/* Estilos generales para la página de inicio */
+.home-container[b-2gvvs4sb6e] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alineamos hacia arriba */
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f7f6;
+    min-height: 100vh;
+    box-sizing: border-box; /* Asegura que el padding no cambie el tamaño del contenedor */
+}
+
+/* Barra de título y bienvenida */
+.home-header[b-2gvvs4sb6e] {
+    text-align: center;
+    max-width: 900px; /* Aseguramos que no ocupe todo el ancho en pantallas grandes */
+    margin-bottom: 30px;
+}
+
+    /* Título principal */
+    .home-header h1[b-2gvvs4sb6e] {
+        font-size: 2.5rem;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+/* Texto introductorio */
+.intro-text[b-2gvvs4sb6e] {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+    max-width: 700px; /* Asegura que el texto no se expanda demasiado en pantallas grandes */
+}
+
+/* Sección de contenido principal */
+.home-content[b-2gvvs4sb6e] {
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+    /* Subtítulo de la sección */
+    .home-content h2[b-2gvvs4sb6e] {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    /* Lista de características */
+    .home-content ul[b-2gvvs4sb6e] {
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 1.1rem;
+    }
+
+        .home-content ul li[b-2gvvs4sb6e] {
+            margin: 10px 0;
+        }
+
+            .home-content ul li strong[b-2gvvs4sb6e] {
+                color: #007bff;
+            }
+
+    /* Título para la sección final */
+    .home-content h3[b-2gvvs4sb6e] {
+        font-size: 1.5rem;
+        color: #333;
+        margin-top: 30px;
+    }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .home-header h1[b-2gvvs4sb6e] {
+        font-size: 2rem;
+    }
+
+    .intro-text[b-2gvvs4sb6e] {
+        font-size: 1rem;
+    }
+
+    .home-content[b-2gvvs4sb6e] {
+        padding: 15px;
+    }
+
+        .home-content h2[b-2gvvs4sb6e] {
+            font-size: 1.8rem;
+        }
+
+        .home-content ul li[b-2gvvs4sb6e] {
+            font-size: 1rem;
+        }
+
+        .home-content h3[b-2gvvs4sb6e] {
+            font-size: 1.3rem;
+        }
+}
+
+/* Media Queries para dispositivos muy pequeños (móviles) */
+@media (max-width: 480px) {
+    .home-container[b-2gvvs4sb6e] {
+        padding: 20px;
+    }
+
+    .home-header h1[b-2gvvs4sb6e] {
+        font-size: 1.8rem;
+    }
+
+    .intro-text[b-2gvvs4sb6e] {
+        font-size: 0.9rem;
+    }
+
+    .home-content[b-2gvvs4sb6e] {
+        padding: 10px;
+    }

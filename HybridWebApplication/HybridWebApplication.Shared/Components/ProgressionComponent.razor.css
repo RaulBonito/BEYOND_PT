@@ -1,0 +1,108 @@
+﻿/* Estilo base para la lista de progressions */
+.progression-list {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.progression-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.progression-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+    .progression-item:hover {
+        background-color: #f1f1f1;
+    }
+
+.progression-info {
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.progress-bar-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 3px;
+    transition: width 0.3s ease;
+}
+
+.accumulated-percent {
+    font-size: 12px;
+    color: #4CAF50;
+}
+
+.no-progressions {
+    color: #8a8a8a;
+    font-style: italic;
+}
+
+/* Estilo de los botones */
+.btn-add-progress, .btn-submit-progress {
+    padding: 8px 15px;
+    font-size: 12px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-add-progress:hover, .btn-submit-progress:hover {
+        background-color: #1c7ce4;
+    }
+
+.icon-plus {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+/* Estilo para el formulario de añadir progresión */
+.add-progression-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.input-date, .input-percent {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+    .input-date:focus, .input-percent:focus {
+        border-color: #1a73e8;
+        outline: none;
+    }

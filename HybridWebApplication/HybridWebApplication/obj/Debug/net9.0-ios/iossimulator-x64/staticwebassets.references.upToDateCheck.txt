@@ -1,0 +1,5 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared\obj\Debug\net9.0\staticwebassets.build.json

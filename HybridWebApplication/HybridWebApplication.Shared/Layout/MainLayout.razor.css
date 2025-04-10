@@ -1,0 +1,42 @@
+/* Estilos generales para el layout */
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+    .navbar nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .navbar nav ul li {
+            font-size: 1.1rem;
+        }
+
+            .navbar nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+                .navbar nav ul li a:hover {
+                    color: #f0f0f0;
+                }
+
+/* Estilos para el cuerpo de la aplicación */
+.body-content {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}

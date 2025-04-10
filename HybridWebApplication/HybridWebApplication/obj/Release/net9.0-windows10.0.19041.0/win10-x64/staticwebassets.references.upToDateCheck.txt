@@ -1,0 +1,1 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared\obj\Release\net9.0\staticwebassets.build.json

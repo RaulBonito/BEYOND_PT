@@ -1,0 +1,60 @@
+is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = HybridWebApplication.Shared
+build_property.RootNamespace = HybridWebApplication.Shared
+build_property.ProjectDir = C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Pactial\Development\Beyond.PruebaTecnica\HybridWebApplication\HybridWebApplication.Shared
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Components/ProgressionComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9ncmVzc2lvbkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2djwq91fpz
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Components/TodoHeaderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2RvSGVhZGVyQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-83cih0kkx6
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Components/TodoItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2RvSXRlbUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-mvgxi7878z
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-clxfz17j96
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Pages/AddTask.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVGFzay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-amwqdqb6iu
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2gvvs4sb6e
+
+[C:/Pactial/Development/Beyond.PruebaTecnica/HybridWebApplication/HybridWebApplication.Shared/Pages/TodoList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kb0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-srlqhk58yz

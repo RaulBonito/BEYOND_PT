@@ -1,0 +1,17 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\bin\Release\net9.0\Beyond.PruebaTecnica.Services.deps.json
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\bin\Release\net9.0\Beyond.PruebaTecnica.Services.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\bin\Release\net9.0\Beyond.PruebaTecnica.Services.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\bin\Release\net9.0\Beyond.PruebaTecnica.Abstractions.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\bin\Release\net9.0\Beyond.PruebaTecnica.Core.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\bin\Release\net9.0\Beyond.PruebaTecnica.Abstractions.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\bin\Release\net9.0\Beyond.PruebaTecnica.Core.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.PruebaTecnica.Services.csproj.AssemblyReference.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.PruebaTecnica.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.PruebaTecnica.Services.AssemblyInfoInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.PruebaTecnica.Services.AssemblyInfo.cs
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.PruebaTecnica.Services.csproj.CoreCompileInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.P.1870D052.Up2Date
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.PruebaTecnica.Services.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\refint\Beyond.PruebaTecnica.Services.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\Beyond.PruebaTecnica.Services.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Services\obj\Release\net9.0\ref\Beyond.PruebaTecnica.Services.dll

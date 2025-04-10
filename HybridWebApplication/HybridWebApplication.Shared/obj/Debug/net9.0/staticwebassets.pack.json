@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\HybridWebApplication\\HybridWebApplication.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\HybridWebApplication.Shared.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HybridWebApplication.Shared.uhev70m74u.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\HybridWebApplication\\HybridWebApplication.Shared\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.HybridWebApplication.Shared.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.HybridWebApplication.Shared.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.HybridWebApplication.Shared.props",
+      "PackagePath": "build\\HybridWebApplication.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.HybridWebApplication.Shared.props",
+      "PackagePath": "buildMultiTargeting\\HybridWebApplication.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.HybridWebApplication.Shared.props",
+      "PackagePath": "buildTransitive\\HybridWebApplication.Shared.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

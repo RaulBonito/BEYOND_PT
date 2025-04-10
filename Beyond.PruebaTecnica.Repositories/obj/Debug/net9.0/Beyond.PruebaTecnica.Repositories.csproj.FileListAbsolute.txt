@@ -1,0 +1,17 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\bin\Debug\net9.0\Beyond.PruebaTecnica.Repositories.deps.json
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\bin\Debug\net9.0\Beyond.PruebaTecnica.Repositories.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\bin\Debug\net9.0\Beyond.PruebaTecnica.Repositories.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\bin\Debug\net9.0\Beyond.PruebaTecnica.Abstractions.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\bin\Debug\net9.0\Beyond.PruebaTecnica.Core.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\bin\Debug\net9.0\Beyond.PruebaTecnica.Abstractions.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\bin\Debug\net9.0\Beyond.PruebaTecnica.Core.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.PruebaTecnica.Repositories.csproj.AssemblyReference.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.PruebaTecnica.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.PruebaTecnica.Repositories.AssemblyInfoInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.PruebaTecnica.Repositories.AssemblyInfo.cs
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.PruebaTecnica.Repositories.csproj.CoreCompileInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.P.66B8EDEE.Up2Date
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.PruebaTecnica.Repositories.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\refint\Beyond.PruebaTecnica.Repositories.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\Beyond.PruebaTecnica.Repositories.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Repositories\obj\Debug\net9.0\ref\Beyond.PruebaTecnica.Repositories.dll

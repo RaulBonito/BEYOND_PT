@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true, // Habilita la apertura del navegador automáticamente al ejecutar el proyecto
+      "applicationUrl": "https://localhost:7284", // Asegúrate de que esta URL sea la correcta
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development" // El entorno es 'Development'
+      }
+    },
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true, // También puedes habilitar el navegador para el perfil http
+      "applicationUrl": "http://localhost:5000", // Configuración para HTTP
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development" // El entorno sigue siendo 'Development'
+      }
+    }
+  }
+}

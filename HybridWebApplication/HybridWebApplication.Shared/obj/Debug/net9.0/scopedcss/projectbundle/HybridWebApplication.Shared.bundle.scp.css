@@ -1,0 +1,546 @@
+/* _content/HybridWebApplication.Shared/Components/ProgressionComponent.razor.rz.scp.css */
+/* Estilo base para la lista de progressions */
+.progression-list[b-2djwq91fpz] {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.progression-items[b-2djwq91fpz] {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.progression-item[b-2djwq91fpz] {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+    .progression-item:hover[b-2djwq91fpz] {
+        background-color: #f1f1f1;
+    }
+
+.progression-info[b-2djwq91fpz] {
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.progress-bar-container[b-2djwq91fpz] {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar[b-2djwq91fpz] {
+    width: 100%;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.progress-bar-inner[b-2djwq91fpz] {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 3px;
+    transition: width 0.3s ease;
+}
+
+.accumulated-percent[b-2djwq91fpz] {
+    font-size: 12px;
+    color: #4CAF50;
+}
+
+.no-progressions[b-2djwq91fpz] {
+    color: #8a8a8a;
+    font-style: italic;
+}
+
+/* Estilo de los botones */
+.btn-add-progress[b-2djwq91fpz], .btn-submit-progress[b-2djwq91fpz] {
+    padding: 8px 15px;
+    font-size: 12px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-add-progress:hover[b-2djwq91fpz], .btn-submit-progress:hover[b-2djwq91fpz] {
+        background-color: #1c7ce4;
+    }
+
+.icon-plus[b-2djwq91fpz] {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+/* Estilo para el formulario de añadir progresión */
+.add-progression-form[b-2djwq91fpz] {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.input-date[b-2djwq91fpz], .input-percent[b-2djwq91fpz] {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+    .input-date:focus[b-2djwq91fpz], .input-percent:focus[b-2djwq91fpz] {
+        border-color: #1a73e8;
+        outline: none;
+    }
+/* _content/HybridWebApplication.Shared/Components/TodoHeaderComponent.razor.rz.scp.css */
+.todo-header[b-83cih0kkx6] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.todo-header-left[b-83cih0kkx6] {
+    flex-grow: 1;
+}
+
+.todo-title[b-83cih0kkx6] {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #333333;
+}
+
+.todo-header-right[b-83cih0kkx6] {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-add-task[b-83cih0kkx6] {
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-add-task:hover[b-83cih0kkx6] {
+        background-color: #1c7ce4;
+    }
+
+.icon-plus[b-83cih0kkx6] {
+    font-size: 18px;
+}
+/* _content/HybridWebApplication.Shared/Components/TodoItemComponent.razor.rz.scp.css */
+/* Estilos generales para la card */
+.todo-item[b-mvgxi7878z] {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item-header[b-mvgxi7878z] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-left[b-mvgxi7878z] {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item-id[b-mvgxi7878z] {
+    font-size: 14px;
+    color: #666;
+}
+
+.todo-item-title[b-mvgxi7878z] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header-right[b-mvgxi7878z] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.todo-item-category[b-mvgxi7878z] {
+    font-size: 12px;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.category-tag[b-mvgxi7878z] {
+    background-color: #d1e7dd;
+    color: #2f6c56;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.todo-item-progress[b-mvgxi7878z] {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.todo-item-description[b-mvgxi7878z] {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.todo-item-actions[b-mvgxi7878z] {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-update[b-mvgxi7878z], .btn-delete[b-mvgxi7878z], .btn-progressions[b-mvgxi7878z] {
+    padding: 8px 15px;
+    font-size: 12px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-update:hover[b-mvgxi7878z], .btn-delete:hover[b-mvgxi7878z], .btn-progressions:hover[b-mvgxi7878z] {
+        background-color: #1c7ce4;
+    }
+
+.icon-pencil[b-mvgxi7878z], .icon-trash[b-mvgxi7878z], .icon-eye[b-mvgxi7878z] {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+/* Accordion */
+.accordion-content[b-mvgxi7878z] {
+    margin-top: 15px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+/* _content/HybridWebApplication.Shared/Layout/MainLayout.razor.rz.scp.css */
+/* Estilos generales para el layout */
+.main-layout[b-clxfz17j96] {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegaci�n */
+.navbar[b-clxfz17j96] {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+    .navbar nav ul[b-clxfz17j96] {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .navbar nav ul li[b-clxfz17j96] {
+            font-size: 1.1rem;
+        }
+
+            .navbar nav ul li a[b-clxfz17j96] {
+                color: white;
+                text-decoration: none;
+            }
+
+                .navbar nav ul li a:hover[b-clxfz17j96] {
+                    color: #f0f0f0;
+                }
+
+/* Estilos para el cuerpo de la aplicaci�n */
+.body-content[b-clxfz17j96] {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}
+/* _content/HybridWebApplication.Shared/Pages/AddTask.razor.rz.scp.css */
+/* AddTask.razor.css */
+
+h3[b-amwqdqb6iu] {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.form-container[b-amwqdqb6iu] {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group[b-amwqdqb6iu] {
+    margin-bottom: 15px;
+}
+
+    .form-group label[b-amwqdqb6iu] {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+.form-control[b-amwqdqb6iu] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+    .form-control:focus[b-amwqdqb6iu] {
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+button[b-amwqdqb6iu] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button.btn-primary[b-amwqdqb6iu] {
+        background-color: #007bff;
+        border: none;
+        color: white;
+    }
+
+    button.btn-secondary[b-amwqdqb6iu] {
+        background-color: #6c757d;
+        border: none;
+        color: white;
+    }
+
+    button:hover[b-amwqdqb6iu] {
+        opacity: 0.8;
+    }
+
+    button:focus[b-amwqdqb6iu] {
+        outline: none;
+    }
+
+@media (max-width: 768px) {
+    .form-container[b-amwqdqb6iu] {
+        padding: 15px;
+    }
+
+    .form-control[b-amwqdqb6iu] {
+        font-size: 14px;
+    }
+
+    button[b-amwqdqb6iu] {
+        font-size: 14px;
+    }
+}
+/* _content/HybridWebApplication.Shared/Pages/Home.razor.rz.scp.css */
+/* Estilos generales para la página de inicio */
+.home-container[b-2gvvs4sb6e] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alineamos hacia arriba */
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f7f6;
+    min-height: 100vh;
+    box-sizing: border-box; /* Asegura que el padding no cambie el tamaño del contenedor */
+}
+
+/* Barra de título y bienvenida */
+.home-header[b-2gvvs4sb6e] {
+    text-align: center;
+    max-width: 900px; /* Aseguramos que no ocupe todo el ancho en pantallas grandes */
+    margin-bottom: 30px;
+}
+
+    /* Título principal */
+    .home-header h1[b-2gvvs4sb6e] {
+        font-size: 2.5rem;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+/* Texto introductorio */
+.intro-text[b-2gvvs4sb6e] {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+    max-width: 700px; /* Asegura que el texto no se expanda demasiado en pantallas grandes */
+}
+
+/* Sección de contenido principal */
+.home-content[b-2gvvs4sb6e] {
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+    /* Subtítulo de la sección */
+    .home-content h2[b-2gvvs4sb6e] {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    /* Lista de características */
+    .home-content ul[b-2gvvs4sb6e] {
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 1.1rem;
+    }
+
+        .home-content ul li[b-2gvvs4sb6e] {
+            margin: 10px 0;
+        }
+
+            .home-content ul li strong[b-2gvvs4sb6e] {
+                color: #007bff;
+            }
+
+    /* Título para la sección final */
+    .home-content h3[b-2gvvs4sb6e] {
+        font-size: 1.5rem;
+        color: #333;
+        margin-top: 30px;
+    }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .home-header h1[b-2gvvs4sb6e] {
+        font-size: 2rem;
+    }
+
+    .intro-text[b-2gvvs4sb6e] {
+        font-size: 1rem;
+    }
+
+    .home-content[b-2gvvs4sb6e] {
+        padding: 15px;
+    }
+
+        .home-content h2[b-2gvvs4sb6e] {
+            font-size: 1.8rem;
+        }
+
+        .home-content ul li[b-2gvvs4sb6e] {
+            font-size: 1rem;
+        }
+
+        .home-content h3[b-2gvvs4sb6e] {
+            font-size: 1.3rem;
+        }
+}
+
+/* Media Queries para dispositivos muy pequeños (móviles) */
+@media (max-width: 480px) {
+    .home-container[b-2gvvs4sb6e] {
+        padding: 20px;
+    }
+
+    .home-header h1[b-2gvvs4sb6e] {
+        font-size: 1.8rem;
+    }
+
+    .intro-text[b-2gvvs4sb6e] {
+        font-size: 0.9rem;
+    }
+
+    .home-content[b-2gvvs4sb6e] {
+        padding: 10px;
+    }
+/* _content/HybridWebApplication.Shared/Pages/TodoList.razor.rz.scp.css */
+.todo-list-page[b-srlqhk58yz] {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.todo-header[b-srlqhk58yz] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-title[b-srlqhk58yz] {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.btn-add-task[b-srlqhk58yz] {
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-add-task:hover[b-srlqhk58yz] {
+        background-color: #1c7ce4;
+    }
+
+.icon-plus[b-srlqhk58yz] {
+    font-size: 18px;
+}

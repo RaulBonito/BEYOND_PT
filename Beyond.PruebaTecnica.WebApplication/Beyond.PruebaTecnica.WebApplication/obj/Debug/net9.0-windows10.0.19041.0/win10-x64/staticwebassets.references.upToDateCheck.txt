@@ -1,0 +1,2 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.WebApplication\Beyond.PruebaTecnica.WebApplication.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.WebApplication\Beyond.PruebaTecnica.WebApplication.Shared\obj\Debug\net9.0\staticwebassets.build.json

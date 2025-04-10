@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Beyond.PruebaTecnica.Abstractions\Beyond.PruebaTecnica.Abstractions.csproj" />
+    <ProjectReference Include="..\Beyond.PruebaTecnica.Core\Beyond.PruebaTecnica.Core.csproj" />
+  </ItemGroup>
+
+</Project>

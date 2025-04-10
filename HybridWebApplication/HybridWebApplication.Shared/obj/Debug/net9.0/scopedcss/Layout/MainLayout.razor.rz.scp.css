@@ -1,0 +1,42 @@
+/* Estilos generales para el layout */
+.main-layout[b-clxfz17j96] {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegaci�n */
+.navbar[b-clxfz17j96] {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+    .navbar nav ul[b-clxfz17j96] {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .navbar nav ul li[b-clxfz17j96] {
+            font-size: 1.1rem;
+        }
+
+            .navbar nav ul li a[b-clxfz17j96] {
+                color: white;
+                text-decoration: none;
+            }
+
+                .navbar nav ul li a:hover[b-clxfz17j96] {
+                    color: #f0f0f0;
+                }
+
+/* Estilos para el cuerpo de la aplicaci�n */
+.body-content[b-clxfz17j96] {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}

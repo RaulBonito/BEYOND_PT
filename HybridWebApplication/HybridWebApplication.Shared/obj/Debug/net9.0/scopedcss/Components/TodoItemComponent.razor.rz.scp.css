@@ -1,0 +1,103 @@
+/* Estilos generales para la card */
+.todo-item[b-mvgxi7878z] {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item-header[b-mvgxi7878z] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-left[b-mvgxi7878z] {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item-id[b-mvgxi7878z] {
+    font-size: 14px;
+    color: #666;
+}
+
+.todo-item-title[b-mvgxi7878z] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header-right[b-mvgxi7878z] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.todo-item-category[b-mvgxi7878z] {
+    font-size: 12px;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.category-tag[b-mvgxi7878z] {
+    background-color: #d1e7dd;
+    color: #2f6c56;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.todo-item-progress[b-mvgxi7878z] {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.todo-item-description[b-mvgxi7878z] {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.todo-item-actions[b-mvgxi7878z] {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-update[b-mvgxi7878z], .btn-delete[b-mvgxi7878z], .btn-progressions[b-mvgxi7878z] {
+    padding: 8px 15px;
+    font-size: 12px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-update:hover[b-mvgxi7878z], .btn-delete:hover[b-mvgxi7878z], .btn-progressions:hover[b-mvgxi7878z] {
+        background-color: #1c7ce4;
+    }
+
+.icon-pencil[b-mvgxi7878z], .icon-trash[b-mvgxi7878z], .icon-eye[b-mvgxi7878z] {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+/* Accordion */
+.accordion-content[b-mvgxi7878z] {
+    margin-top: 15px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}

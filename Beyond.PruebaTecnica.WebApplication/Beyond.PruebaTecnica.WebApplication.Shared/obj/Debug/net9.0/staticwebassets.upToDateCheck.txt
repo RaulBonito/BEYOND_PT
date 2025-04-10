@@ -1,0 +1,2 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.WebApplication\Beyond.PruebaTecnica.WebApplication.Shared\wwwroot\app.css
+wwwroot\app.css

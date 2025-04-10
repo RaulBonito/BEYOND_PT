@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.WebApplication\\Beyond.PruebaTecnica.WebApplication.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Beyond.PruebaTecnica.WebApplication.Shared.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Beyond.PruebaTecnica.WebApplication.Shared.6bon6bbuqj.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.WebApplication\\Beyond.PruebaTecnica.WebApplication.Shared\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Beyond.PruebaTecnica.WebApplication.Shared.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Beyond.PruebaTecnica.WebApplication.Shared.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Beyond.PruebaTecnica.WebApplication.Shared.props",
+      "PackagePath": "build\\Beyond.PruebaTecnica.WebApplication.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Beyond.PruebaTecnica.WebApplication.Shared.props",
+      "PackagePath": "buildMultiTargeting\\Beyond.PruebaTecnica.WebApplication.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Beyond.PruebaTecnica.WebApplication.Shared.props",
+      "PackagePath": "buildTransitive\\Beyond.PruebaTecnica.WebApplication.Shared.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

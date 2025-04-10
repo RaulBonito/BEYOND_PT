@@ -1,0 +1,162 @@
+﻿@using HybridWebApplication.Shared.Models
+@using System.Linq
+@using MudBlazor
+@inherits ComponentBase
+@inject HttpClient Http
+@inject ISnackbar Snackbar
+
+<div class="todo-item" style="background-color: @GetBackgroundColor();">
+	<div class="todo-item-header">
+		<div class="header-left">
+			<span class="todo-item-id">ID# @Todo.Id</span>
+			<span class="todo-item-title">@Todo.Title</span>
+		</div>
+		<div class="header-right">
+			<span class="todo-item-category">
+				<span class="category-tag">@Todo.Category</span>
+			</span>
+			<span class="todo-item-progress" style="font-size: 24px; font-weight: bold;">
+				@Todo.TotalProgression%
+			</span>
+		</div>
+	</div>
+
+	<div class="todo-item-description">
+		@if (!isEditing)
+		{
+			<p>@Todo.Description</p>
+		}
+	</div>
+
+	@if (isEditing)
+	{
+		<div class="edit-description-box">
+			<textarea class="form-control" @bind="editableDescription"></textarea>
+			<div class="edit-actions" style="margin-top: 10px;">
+				<button class="btn btn-success" @onclick="SaveDescriptionAsync">Save</button>
+				<button class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
+			</div>
+		</div>
+
+	}
+	@if (!string.IsNullOrEmpty(onRequestErrorMessage))
+	{
+		<h3>@onRequestErrorMessage</h3>
+	}
+	<!-- Botones a la derecha -->
+	<div class="todo-item-actions">
+		<button class="btn-update" @onclick="ToggleEditDescription">
+			<i class="icon-pencil"></i> Update
+		</button>
+		<button class="btn-delete" @onclick="RemoveTodoItem">
+			<i class="icon-trash"></i> Delete
+		</button>
+		<button class="btn-progressions" @onclick="ToggleProgressions">
+			<i class="icon-eye"></i> @(!progressionsVisible ? "Show Progressions" : "Hide Progressions")
+		</button>
+	</div>
+
+	@if (progressionsVisible)
+	{
+		<div class="accordion-content">
+			<ProgressionComponent OnUpdateRequired="OnUpdateRequired" Todo="Todo" />
+		</div>
+	}
+</div>
+
+@code {
+	[Parameter] public TodoItemDto Todo { get; set; }
+	[Parameter] public EventCallback OnUpdateRequired { get; set; }
+
+	private bool progressionsVisible = false;
+	private bool isEditing = false;
+	private string editableDescription = string.Empty;
+	private string onRequestErrorMessage = string.Empty;
+
+
+	private void ToggleProgressions()
+	{
+		progressionsVisible = !progressionsVisible;
+	}
+
+	private void ToggleEditDescription()
+	{
+		isEditing = true;
+		editableDescription = Todo.Description;
+	}
+
+	private void CancelEdit()
+	{
+		isEditing = false;
+		editableDescription = string.Empty;
+	}
+
+	private async Task SaveDescriptionAsync()
+	{
+		var dto = new UpdateItemDto
+			{
+				Description = editableDescription
+			};
+
+		try
+		{
+			var response = await Http.PutAsJsonAsync($"api/todolist/update/{Todo.Id}", dto);
+
+			if (response.IsSuccessStatusCode)
+			{
+				Todo.Description = editableDescription;
+				isEditing = false;
+
+				await OnUpdateRequired.InvokeAsync();
+			}
+			else
+			{
+				var error = await response.Content.ReadAsStringAsync();
+				onRequestErrorMessage = $"Error on update: {error}";
+				// Snackbar.Add($"Error on update: {error}", Severity.Error);
+				// .ShowError($"Error al actualizar: {error}");
+			}
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"Excepción: {ex.Message}");
+		}
+	}
+
+	private async Task RemoveTodoItem()
+	{
+		try
+		{
+			var response = await Http.DeleteAsync($"api/todolist/delete/{Todo.Id}");
+
+			if (response.IsSuccessStatusCode)
+			{
+				await OnUpdateRequired.InvokeAsync();
+			}
+			else
+			{
+				var error = await response.Content.ReadAsStringAsync();
+				onRequestErrorMessage = $"Error: {error}";
+			}
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"Excepción al eliminar el item: {ex.Message}");
+		}
+	}
+
+	private string GetBackgroundColor()
+	{
+		if (Todo.TotalProgression == 100)
+			return "#d3f8d3"; // Verde claro
+		else if (Todo.TotalProgression == 0)
+			return "#f3f3f3"; // Gris claro
+		else
+			return "#e0f7fa"; // Azul claro
+	}
+
+	public class UpdateItemDto
+	{
+		public string Description { get; set; }
+	}
+}

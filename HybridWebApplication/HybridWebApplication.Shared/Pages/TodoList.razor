@@ -1,0 +1,54 @@
+﻿@page "/todo-list"
+@layout Layout.MainLayout
+
+@using HybridWebApplication.Shared.Components
+@using HybridWebApplication.Shared.Models
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<PageTitle>Tasks</PageTitle>
+
+<TodoHeaderComponent OnAddTaskClick="HandleAddTaskClick" />
+
+<div class="todo-list-page">
+    @if (TodoItems is null)
+    {
+        <p>Loading tasks...</p>
+    }
+    else
+    {
+        @foreach (var item in TodoItems)
+        {
+            <TodoItemComponent OnUpdateRequired="LoadTodoItemsAsync" Todo="item" />
+        }
+    }
+</div>
+
+@code {
+    private List<TodoItemDto>? TodoItems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTodoItemsAsync();
+    }
+
+    private async Task LoadTodoItemsAsync()
+    {
+        try
+        {
+            var items = await Http.GetFromJsonAsync<List<TodoItemDto>>("api/todolist/list");
+            TodoItems = items;
+            // StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching todo items: {ex.Message}");
+            TodoItems = new(); 
+        }
+    }
+
+    private void HandleAddTaskClick()
+    {
+        Navigation.NavigateTo("/add-task");
+    }
+}

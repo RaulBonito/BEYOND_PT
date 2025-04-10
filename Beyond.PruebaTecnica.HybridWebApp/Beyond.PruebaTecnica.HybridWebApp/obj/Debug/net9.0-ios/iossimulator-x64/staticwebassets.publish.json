@@ -1,0 +1,2950 @@
+{
+  "Version": 1,
+  "Hash": "mBy5NO6WeDs27ZQQbbhtqw1UF22EXjsHxE3wYW6SFP8=",
+  "Source": "Beyond.PruebaTecnica.HybridWebApp",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\Beyond.PruebaTecnica.HybridWebApp.Shared.csproj",
+      "Version": 2,
+      "Source": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot",
+      "Source": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\",
+      "BasePath": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "Pattern": "**"
+    },
+    {
+      "Name": "Beyond.PruebaTecnica.HybridWebApp\\wwwroot",
+      "Source": "Beyond.PruebaTecnica.HybridWebApp",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\",
+      "BasePath": "/",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\hgv83jl2bu-2t9euwyew4.gz",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "RelativePath": "Beyond.PruebaTecnica.HybridWebApp.Shared#[.{fingerprint=2t9euwyew4}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "orr9ms9q61",
+      "Integrity": "1Mpo72I1cWwUwgcLHLXZWtBJDQUpLUChAAzMUTC5hyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\hgv83jl2bu-2t9euwyew4.gz"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\k74n1h79lt-9tsjre4pz5.gz",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "RelativePath": "app#[.{fingerprint=9tsjre4pz5}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "datygc5fic",
+      "Integrity": "O2dqMBbTTBf8cODXpuzuzNyAVz0cx6SlgWAxnen5BGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\k74n1h79lt-9tsjre4pz5.gz"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\hgv83jl2bu-2t9euwyew4.br",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "RelativePath": "Beyond.PruebaTecnica.HybridWebApp.Shared#[.{fingerprint=2t9euwyew4}]!.bundle.scp.css.br",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "ixkl2h3pjy",
+      "Integrity": "ygxMd0EyxTCHDSNEj7Tlhgb7G5xS9JHAiG7zYbY2iGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\hgv83jl2bu-2t9euwyew4.br"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\k74n1h79lt-9tsjre4pz5.br",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "RelativePath": "app#[.{fingerprint=9tsjre4pz5}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "hz5gigo83a",
+      "Integrity": "TZSJGqk8cEBYjnMgOqk1gM1AUOICkj1Fibs0oiK6jcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\k74n1h79lt-9tsjre4pz5.br"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "RelativePath": "Beyond.PruebaTecnica.HybridWebApp.Shared#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "2t9euwyew4",
+      "Integrity": "JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\app.css",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\",
+      "BasePath": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9tsjre4pz5",
+      "Integrity": "Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\603iqjdwy2-qcjd77kdck.gz",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "Beyond.PruebaTecnica.HybridWebApp#[.{fingerprint=qcjd77kdck}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "w0u293qygr",
+      "Integrity": "gEY/UhlU8Mb8ZtU07McqNxpsKAwImuwYoHRHcARolPk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\abqtq77iqs-qlztsk7vkl.gz",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=qlztsk7vkl}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "n04y5ddr18",
+      "Integrity": "Ka6HNd24I8X8o4K35eOiBVWd0/Bqz9DP1xtM32WYkIU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\603iqjdwy2-qcjd77kdck.br",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "Beyond.PruebaTecnica.HybridWebApp#[.{fingerprint=qcjd77kdck}]?.styles.css.br",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "yqt4ibu0f8",
+      "Integrity": "mq0I4GADV9w13xfI0lrmCC1sWqyN6UOVPWC3onAVHuM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\abqtq77iqs-qlztsk7vkl.br",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=qlztsk7vkl}]?.html.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "rovveigtig",
+      "Integrity": "K0jtDIE3POVRhnMd3eyGePprJwYNLLefMuMvgsBuwc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\to9hm3n6fz-obgb1x923p.br",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "app#[.{fingerprint=obgb1x923p}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "wbesqdrm5g",
+      "Integrity": "dOpRm4inXwHl8WsNrLcjuJiwaSrWsglIJRVphPxTAq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\to9hm3n6fz-obgb1x923p.gz",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "app#[.{fingerprint=obgb1x923p}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vzj90oee09",
+      "Integrity": "e4306rHDcKdd9rBZuHDSbbfopML3cK4Fvrptxx9lgJk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "Beyond.PruebaTecnica.HybridWebApp#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "qcjd77kdck",
+      "Integrity": "OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\app.css",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "obgb1x923p",
+      "Integrity": "nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\index.html",
+      "SourceId": "Beyond.PruebaTecnica.HybridWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qlztsk7vkl",
+      "Integrity": "ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.9tsjre4pz5.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\k74n1h79lt-9tsjre4pz5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000798084597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2dqMBbTTBf8cODXpuzuzNyAVz0cx6SlgWAxnen5BGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.9tsjre4pz5.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\k74n1h79lt-9tsjre4pz5.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000865800866"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1154"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZSJGqk8cEBYjnMgOqk1gM1AUOICkj1Fibs0oiK6jcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.9tsjre4pz5.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.9tsjre4pz5.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\k74n1h79lt-9tsjre4pz5.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZSJGqk8cEBYjnMgOqk1gM1AUOICkj1Fibs0oiK6jcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZSJGqk8cEBYjnMgOqk1gM1AUOICkj1Fibs0oiK6jcE="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css.br"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.9tsjre4pz5.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\k74n1h79lt-9tsjre4pz5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2dqMBbTTBf8cODXpuzuzNyAVz0cx6SlgWAxnen5BGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O2dqMBbTTBf8cODXpuzuzNyAVz0cx6SlgWAxnen5BGU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\k74n1h79lt-9tsjre4pz5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000798084597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2dqMBbTTBf8cODXpuzuzNyAVz0cx6SlgWAxnen5BGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\k74n1h79lt-9tsjre4pz5.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000865800866"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1154"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZSJGqk8cEBYjnMgOqk1gM1AUOICkj1Fibs0oiK6jcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\k74n1h79lt-9tsjre4pz5.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZSJGqk8cEBYjnMgOqk1gM1AUOICkj1Fibs0oiK6jcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZSJGqk8cEBYjnMgOqk1gM1AUOICkj1Fibs0oiK6jcE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/app.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\k74n1h79lt-9tsjre4pz5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2dqMBbTTBf8cODXpuzuzNyAVz0cx6SlgWAxnen5BGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O2dqMBbTTBf8cODXpuzuzNyAVz0cx6SlgWAxnen5BGU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\hgv83jl2bu-2t9euwyew4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002985074627"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Mpo72I1cWwUwgcLHLXZWtBJDQUpLUChAAzMUTC5hyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t9euwyew4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\hgv83jl2bu-2t9euwyew4.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003676470588"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ygxMd0EyxTCHDSNEj7Tlhgb7G5xS9JHAiG7zYbY2iGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t9euwyew4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t9euwyew4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\hgv83jl2bu-2t9euwyew4.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ygxMd0EyxTCHDSNEj7Tlhgb7G5xS9JHAiG7zYbY2iGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t9euwyew4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ygxMd0EyxTCHDSNEj7Tlhgb7G5xS9JHAiG7zYbY2iGY="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css.br"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\hgv83jl2bu-2t9euwyew4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Mpo72I1cWwUwgcLHLXZWtBJDQUpLUChAAzMUTC5hyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t9euwyew4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Mpo72I1cWwUwgcLHLXZWtBJDQUpLUChAAzMUTC5hyg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\hgv83jl2bu-2t9euwyew4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002985074627"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Mpo72I1cWwUwgcLHLXZWtBJDQUpLUChAAzMUTC5hyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\hgv83jl2bu-2t9euwyew4.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003676470588"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ygxMd0EyxTCHDSNEj7Tlhgb7G5xS9JHAiG7zYbY2iGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JifHPPOh+s0o47m9LXgegyvvyktRHoFZh1haYr/m/S4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\hgv83jl2bu-2t9euwyew4.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ygxMd0EyxTCHDSNEj7Tlhgb7G5xS9JHAiG7zYbY2iGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ygxMd0EyxTCHDSNEj7Tlhgb7G5xS9JHAiG7zYbY2iGY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.bundle.scp.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp.Shared\\obj\\Debug\\net9.0\\compressed\\hgv83jl2bu-2t9euwyew4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Mpo72I1cWwUwgcLHLXZWtBJDQUpLUChAAzMUTC5hyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Mpo72I1cWwUwgcLHLXZWtBJDQUpLUChAAzMUTC5hyg="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\to9hm3n6fz-obgb1x923p.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.005714285714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dOpRm4inXwHl8WsNrLcjuJiwaSrWsglIJRVphPxTAq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\to9hm3n6fz-obgb1x923p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004219409283"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e4306rHDcKdd9rBZuHDSbbfopML3cK4Fvrptxx9lgJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\to9hm3n6fz-obgb1x923p.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dOpRm4inXwHl8WsNrLcjuJiwaSrWsglIJRVphPxTAq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dOpRm4inXwHl8WsNrLcjuJiwaSrWsglIJRVphPxTAq4="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\to9hm3n6fz-obgb1x923p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e4306rHDcKdd9rBZuHDSbbfopML3cK4Fvrptxx9lgJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4306rHDcKdd9rBZuHDSbbfopML3cK4Fvrptxx9lgJk="
+        }
+      ]
+    },
+    {
+      "Route": "app.obgb1x923p.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\to9hm3n6fz-obgb1x923p.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.005714285714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dOpRm4inXwHl8WsNrLcjuJiwaSrWsglIJRVphPxTAq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obgb1x923p"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU="
+        }
+      ]
+    },
+    {
+      "Route": "app.obgb1x923p.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\to9hm3n6fz-obgb1x923p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004219409283"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e4306rHDcKdd9rBZuHDSbbfopML3cK4Fvrptxx9lgJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obgb1x923p"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU="
+        }
+      ]
+    },
+    {
+      "Route": "app.obgb1x923p.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obgb1x923p"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU="
+        }
+      ]
+    },
+    {
+      "Route": "app.obgb1x923p.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\to9hm3n6fz-obgb1x923p.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dOpRm4inXwHl8WsNrLcjuJiwaSrWsglIJRVphPxTAq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obgb1x923p"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dOpRm4inXwHl8WsNrLcjuJiwaSrWsglIJRVphPxTAq4="
+        }
+      ]
+    },
+    {
+      "Route": "app.obgb1x923p.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\to9hm3n6fz-obgb1x923p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e4306rHDcKdd9rBZuHDSbbfopML3cK4Fvrptxx9lgJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obgb1x923p"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4306rHDcKdd9rBZuHDSbbfopML3cK4Fvrptxx9lgJk="
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.qcjd77kdck.styles.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\603iqjdwy2-qcjd77kdck.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008849557522"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEY/UhlU8Mb8ZtU07McqNxpsKAwImuwYoHRHcARolPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcjd77kdck"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4="
+        },
+        {
+          "Name": "label",
+          "Value": "Beyond.PruebaTecnica.HybridWebApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.qcjd77kdck.styles.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\603iqjdwy2-qcjd77kdck.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.011764705882"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mq0I4GADV9w13xfI0lrmCC1sWqyN6UOVPWC3onAVHuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcjd77kdck"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4="
+        },
+        {
+          "Name": "label",
+          "Value": "Beyond.PruebaTecnica.HybridWebApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.qcjd77kdck.styles.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcjd77kdck"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4="
+        },
+        {
+          "Name": "label",
+          "Value": "Beyond.PruebaTecnica.HybridWebApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.qcjd77kdck.styles.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\603iqjdwy2-qcjd77kdck.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mq0I4GADV9w13xfI0lrmCC1sWqyN6UOVPWC3onAVHuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcjd77kdck"
+        },
+        {
+          "Name": "label",
+          "Value": "Beyond.PruebaTecnica.HybridWebApp.styles.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mq0I4GADV9w13xfI0lrmCC1sWqyN6UOVPWC3onAVHuM="
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.qcjd77kdck.styles.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\603iqjdwy2-qcjd77kdck.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEY/UhlU8Mb8ZtU07McqNxpsKAwImuwYoHRHcARolPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcjd77kdck"
+        },
+        {
+          "Name": "label",
+          "Value": "Beyond.PruebaTecnica.HybridWebApp.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gEY/UhlU8Mb8ZtU07McqNxpsKAwImuwYoHRHcARolPk="
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\603iqjdwy2-qcjd77kdck.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008849557522"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEY/UhlU8Mb8ZtU07McqNxpsKAwImuwYoHRHcARolPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4="
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\603iqjdwy2-qcjd77kdck.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.011764705882"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mq0I4GADV9w13xfI0lrmCC1sWqyN6UOVPWC3onAVHuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4="
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Beyond.PruebaTecnica.HybridWebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Beyond.PruebaTecnica.HybridWebApp.Shared/Beyond.PruebaTecnica.HybridWebApp.Shared.2t9euwyew4.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OgbKMx2+VJEdGA2scr4+r8nso1kDQR9pN+QOoCbLvj4="
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.styles.css.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\603iqjdwy2-qcjd77kdck.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mq0I4GADV9w13xfI0lrmCC1sWqyN6UOVPWC3onAVHuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mq0I4GADV9w13xfI0lrmCC1sWqyN6UOVPWC3onAVHuM="
+        }
+      ]
+    },
+    {
+      "Route": "Beyond.PruebaTecnica.HybridWebApp.styles.css.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\603iqjdwy2-qcjd77kdck.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEY/UhlU8Mb8ZtU07McqNxpsKAwImuwYoHRHcARolPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gEY/UhlU8Mb8ZtU07McqNxpsKAwImuwYoHRHcARolPk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\abqtq77iqs-qlztsk7vkl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002631578947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ka6HNd24I8X8o4K35eOiBVWd0/Bqz9DP1xtM32WYkIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\abqtq77iqs-qlztsk7vkl.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003968253968"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0jtDIE3POVRhnMd3eyGePprJwYNLLefMuMvgsBuwc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\abqtq77iqs-qlztsk7vkl.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0jtDIE3POVRhnMd3eyGePprJwYNLLefMuMvgsBuwc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K0jtDIE3POVRhnMd3eyGePprJwYNLLefMuMvgsBuwc8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\abqtq77iqs-qlztsk7vkl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ka6HNd24I8X8o4K35eOiBVWd0/Bqz9DP1xtM32WYkIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ka6HNd24I8X8o4K35eOiBVWd0/Bqz9DP1xtM32WYkIU="
+        }
+      ]
+    },
+    {
+      "Route": "index.qlztsk7vkl.html",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\abqtq77iqs-qlztsk7vkl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002631578947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ka6HNd24I8X8o4K35eOiBVWd0/Bqz9DP1xtM32WYkIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlztsk7vkl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE="
+        }
+      ]
+    },
+    {
+      "Route": "index.qlztsk7vkl.html",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\abqtq77iqs-qlztsk7vkl.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003968253968"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0jtDIE3POVRhnMd3eyGePprJwYNLLefMuMvgsBuwc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlztsk7vkl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE="
+        }
+      ]
+    },
+    {
+      "Route": "index.qlztsk7vkl.html",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlztsk7vkl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ggrN/jcxlmDrA32brG5GT+ML9981+v5T/5B9WW3g3xE="
+        }
+      ]
+    },
+    {
+      "Route": "index.qlztsk7vkl.html.br",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\publish\\abqtq77iqs-qlztsk7vkl.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0jtDIE3POVRhnMd3eyGePprJwYNLLefMuMvgsBuwc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlztsk7vkl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K0jtDIE3POVRhnMd3eyGePprJwYNLLefMuMvgsBuwc8="
+        }
+      ]
+    },
+    {
+      "Route": "index.qlztsk7vkl.html.gz",
+      "AssetFile": "C:\\Pactial\\Development\\Beyond.PruebaTecnica\\Beyond.PruebaTecnica.HybridWebApp\\Beyond.PruebaTecnica.HybridWebApp\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\abqtq77iqs-qlztsk7vkl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ka6HNd24I8X8o4K35eOiBVWd0/Bqz9DP1xtM32WYkIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 09:18:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlztsk7vkl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ka6HNd24I8X8o4K35eOiBVWd0/Bqz9DP1xtM32WYkIU="
+        }
+      ]
+    }
+  ]
+}

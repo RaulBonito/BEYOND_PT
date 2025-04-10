@@ -1,0 +1,15 @@
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\bin\Release\net9.0\Beyond.PruebaTecnica.Abstractions.deps.json
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\bin\Release\net9.0\Beyond.PruebaTecnica.Abstractions.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\bin\Release\net9.0\Beyond.PruebaTecnica.Abstractions.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\bin\Release\net9.0\Beyond.PruebaTecnica.Core.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\bin\Release\net9.0\Beyond.PruebaTecnica.Core.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.PruebaTecnica.Abstractions.csproj.AssemblyReference.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.PruebaTecnica.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.PruebaTecnica.Abstractions.AssemblyInfoInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.PruebaTecnica.Abstractions.AssemblyInfo.cs
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.PruebaTecnica.Abstractions.csproj.CoreCompileInputs.cache
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.P.C615F0DB.Up2Date
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.PruebaTecnica.Abstractions.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\refint\Beyond.PruebaTecnica.Abstractions.dll
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\Beyond.PruebaTecnica.Abstractions.pdb
+C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.Abstractions\obj\Release\net9.0\ref\Beyond.PruebaTecnica.Abstractions.dll

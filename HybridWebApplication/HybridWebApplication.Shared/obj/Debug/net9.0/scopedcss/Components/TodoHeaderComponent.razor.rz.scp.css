@@ -1,0 +1,49 @@
+.todo-header[b-83cih0kkx6] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.todo-header-left[b-83cih0kkx6] {
+    flex-grow: 1;
+}
+
+.todo-title[b-83cih0kkx6] {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #333333;
+}
+
+.todo-header-right[b-83cih0kkx6] {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-add-task[b-83cih0kkx6] {
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-add-task:hover[b-83cih0kkx6] {
+        background-color: #1c7ce4;
+    }
+
+.icon-plus[b-83cih0kkx6] {
+    font-size: 18px;
+}
