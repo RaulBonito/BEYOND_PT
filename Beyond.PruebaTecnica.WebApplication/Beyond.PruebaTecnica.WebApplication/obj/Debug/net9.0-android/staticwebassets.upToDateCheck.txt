@@ -1,4 +1,0 @@
-C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.WebApplication\Beyond.PruebaTecnica.WebApplication\wwwroot\app.css
-C:\Pactial\Development\Beyond.PruebaTecnica\Beyond.PruebaTecnica.WebApplication\Beyond.PruebaTecnica.WebApplication\wwwroot\index.html
-wwwroot\app.css
-wwwroot\index.html
